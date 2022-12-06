@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <title>Portafolio Abril Sessa</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#project">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <section aria-label="main" class="hero" id="main">
+                <div class="hero-image">
+                    <img src="./img/foto-cv.jpeg" width="338" height="330" alt="">
+                </div>
+                <div class="hero-description">
+                    <h1>
+                        <span>¡Hola a todos!</span>
+                        <span>Soy Abril Sessa</span>
+                    </h1>
+                    <p>
+                        Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+                    </p>
+                    <div class="social">
+                        <ul class="list-group d-flex flex-row aboutSocial">
+                            <!--Social icons for the about section-->
+                            <li style="list-style-type: none"><a href="https://www.linkedin.com/in/abril-sessa"><i
+                                        class="fab linkedin"><svg xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-brand-linkedin" width="40" height="40"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#1c246c" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <rect x="4" y="4" width="16" height="16" rx="2" />
+                                            <line x1="8" y1="11" x2="8" y2="16" />
+                                            <line x1="8" y1="8" x2="8" y2="8.01" />
+                                            <line x1="12" y1="16" x2="12" y2="11" />
+                                            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                                        </svg></i></a></li>
+                            <li style="list-style-type: none"><a href="https://github.com/AbrilSessa"><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="40" height="40"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#1c246c" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                    </svg><i class="far github"></i></a></li>
+                        </ul>
+                    </div>
+                    <a href="https://asdas.com" class="button">Descargar curriculum</a>
+                </div>
+            </section>
+        </div>
+
+        
+        <!--<form action="" method="POST" class="form">
+            <div class="form-content">
+                <h2 class="title">Hablemos</h2>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto,
+                    no dude en ponerse en contacto conmigo.</p>
+                <label for="form-name">
+                    Nombre Completo
+                    <input required name="name" id="form-name" type="text" placeholder="juan">
+                </label>
+                <label for="form-name">
+                    Correo electrónico
+                    <input required name="email" id="form-name" type="email" placeholder="juan">
+                </label>
+                <label for="form-name">
+                    Mensaje
+                    <textarea required name="message" placeholder="Mensaje" id="form-message" cols="30"
+                        rows="7"></textarea>
+                </label>
+                <button class="button" type="submit">Enviar mensaje</button>
+            </div>
+        </form>
+
+
+        <!-- Proyectos -->
+        <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+            <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+            <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+            <!-- Galeria de Proyectos -->
+            <div class="container text-center proyectos-contenedor">
+                <div class="row">
+                    <!-- Proyecto 1 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./img/proyecto-uno.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 1</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="." target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./img/proyecto-dos.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 2</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="." target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./img/proyecto-tres.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 3</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.freecodecamp.org/espanol/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 4 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./img/proyecto-uno.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 4</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.freecodecamp.org/espanol/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 5 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./img/proyecto-dos.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 5</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.freecodecamp.org/espanol/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 6 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./img/proyecto-tres.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 6</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.freecodecamp.org/espanol/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:janedoe@micorreo.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://github.com/AbrilSessa" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Abril Sessa (2022) &#169;</div>
+    </footer>
+    <!--<footer class="footer" id="contact">
+        <div class="footer-content">
+
+            <div class="social">
+                <ul>
+                    <li style="list-style-type: none"><a href="https://www.linkedin.com/in/abril-sessa"><i
+                                class="fab linkedin"><svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-brand-linkedin" width="40" height="40"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#1c246c" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <rect x="4" y="4" width="16" height="16" rx="2" />
+                                    <line x1="8" y1="11" x2="8" y2="16" />
+                                    <line x1="8" y1="8" x2="8" y2="8.01" />
+                                    <line x1="12" y1="16" x2="12" y2="11" />
+                                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                                </svg></i></a></li>
+                    <li style="list-style-type: none"><a href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
+                                width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1c246c"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg><i class="far github"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>
+                    Hecho con el ❤️.
+                </p>
+                <p>
+                    Copyright 2022 - Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+    </div>-->
+
+</body>
+
+</html>
